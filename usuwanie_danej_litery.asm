@@ -42,6 +42,7 @@ fin:
 	#czyszczenie(wpisanie \n i \0)
 	li	$t0,	10
 	sb	$t0,	($t2)
+	addiu	$t2,	$t2,	1
 	li	$t0,	0
 	sb	$t0,	($t2)
 	#wypisuje buff
